@@ -1,0 +1,74 @@
+.header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 14000;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: #ffff;
+}
+
+.nav {
+  background: white !important;
+  /* color: black !important; */
+  /* padding: 0 20px; */
+}
+
+.navbar__logo,
+.navlink__logo {
+  width: 100px;
+}
+.nav__headerLinks {
+  margin-left: 30px;
+}
+.nav__item:not(:last-child) {
+  padding-right: 30px;
+}
+.nav__item a {
+  color: black;
+  transition: color 0.2s ease-in;
+  font-weight: 400;
+}
+.nav__item a:hover,
+a:active {
+  color: rgb(18, 146, 238);
+}
+.nav__headerSearch {
+  border: 1px solid rgb(34, 34, 34);
+  padding: 6px 5px;
+  border-radius: 999px;
+}
+.nav__headerSearch input {
+  border: 0;
+}
+.nav__list {
+  margin-left: 20px;
+}
+.nav__itemLink:not(:last-child) {
+  border-right: thin solid rgb(34, 34, 34);
+}
+.nav__itemLink a {
+  color: rgb(18, 146, 238);
+  text-decoration: underline;
+  font-weight: 400;
+  padding-right: 10px;
+}
+
+.left {
+  margin-left: 10px;
+}
+/* the css styling for now till we get the complete navbar details */
+
+@media (max-width: 768px) {
+  .nav__item {
+    color: black;
+    display: none;
+  }
+  .nav__headerSearch {
+    display: none;
+  }
+
+  .nav__itemLink:not(:last-child) {
+    padding-right: unset;
+  }
+}

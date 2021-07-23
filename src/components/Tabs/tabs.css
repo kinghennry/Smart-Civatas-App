@@ -1,0 +1,37 @@
+.tabs__btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+.tabs {
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 50px 80px;
+}
+.tab__btn {
+  background: transparent;
+  border: none;
+}
+.tab__btn:not(:last-child) {
+  padding-right: 70px;
+}
+.tabs__btn-active {
+  color: rgb(18, 146, 238);
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .tabs {
+    padding: 50px 40px;
+  }
+  .tabs__btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 567px) {
+  .tab__btn:not(:last-child) {
+    padding-right: 20px;
+  }
+}

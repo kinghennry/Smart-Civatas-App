@@ -1,0 +1,9 @@
+.services {
+  padding: 30px 0 70px;
+  margin-bottom: 30px;
+}
+.slider .slick-dots li button::before {
+  font-size: 17px;
+  background: white;
+  color: rgb(18, 146, 238);
+}

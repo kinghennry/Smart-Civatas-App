@@ -1,0 +1,17 @@
+.term__link li a {
+  color: white;
+  margin-left: 10px;
+}
+.term__link li:not(:last-child) {
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+
+@media (max-width: 567px) {
+  .termsContainer__row {
+    flex-direction: column;
+  }
+  .copyright {
+    margin-bottom: 10px;
+  }
+}

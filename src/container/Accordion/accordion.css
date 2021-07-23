@@ -1,0 +1,40 @@
+.accordion__item {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 1rem 2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 10px;
+  background: white;
+}
+.workFaq {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.icon {
+  cursor: pointer;
+  color: rgb(18, 146, 238);
+  border: none;
+  background: transparent;
+  font-size: 22px;
+}
+
+.question__text {
+  color: rgb(18, 146, 238);
+  font-weight: 500;
+  font-size: 15px;
+}
+.answer {
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+}
+.answer--active {
+  padding: 10px 60px 30px 0;
+}
+
+/* media queries */
+@media (max-width: 567px) {
+  .accordion__item {
+    padding: 1rem;
+  }
+}
